@@ -1,0 +1,4 @@
+{
+  "presetName": "Developer Tools CLI (v3.1 Security & Performance)",
+  "rawMarkdown": "# GitShield CLI\n\n## [3.1.0] - 2026-09-29\n\nAutomated Git pre-commit credential shield, zero-dependency secret auditor, and GitHub Actions CI runner.\n\n### Added\n- Automated Git pre-commit hook shield preventing committed OpenAI, AWS, and Stripe keys\n- GitHub Actions CI/CD workflow template for automated pull request vulnerability scanning\n- Added support for custom regular expression pattern files (.gitshieldignore)\n\n### Changed\n- 4x faster file hashing engine using multithreaded SHA-256 chunks\n- Cleaned terminal ASCII summary reports with actionable remediation tips\n\n### Fixed\n- Fixed false positives on base64 encoded image assets in markdown docs\n- Resolved path traversal warning on Windows NT file separators\n\nhttps://gitshield.dev/changelog/3-1-0"
+}

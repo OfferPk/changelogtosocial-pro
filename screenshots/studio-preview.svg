@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <defs>
+    <style>
+      .app-bg { fill: #070a14; }
+      .hdr-bg { fill: #0f1527; stroke: #212c4c; stroke-width: 1; }
+      .sidebar-bg { fill: #0f1527; stroke: #212c4c; stroke-width: 1; }
+      .card-bg { fill: #151d36; stroke: #212c4c; stroke-width: 1; rx: 8; }
+      .input-bg { fill: #0a0e1c; stroke: #212c4c; stroke-width: 1; rx: 4; }
+      .brand-title { font-family: sans-serif; font-size: 17px; font-weight: 800; fill: #f8fafc; }
+      .sec-hdr { font-family: sans-serif; font-size: 11px; font-weight: 700; fill: #60a5fa; text-transform: uppercase; letter-spacing: 0.5px; }
+      .lbl-txt { font-family: sans-serif; font-size: 11px; font-weight: 600; fill: #94a3b8; }
+      .val-txt { font-family: sans-serif; font-size: 12px; fill: #f8fafc; }
+      .btn-blue { fill: #3b82f6; rx: 6; }
+      .btn-gray { fill: #151d36; stroke: #212c4c; stroke-width: 1; rx: 6; }
+      .btn-txt { font-family: sans-serif; font-size: 12px; font-weight: 700; fill: #ffffff; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <rect class="app-bg" width="1200" height="750" />
+
+  <!-- App Header -->
+  <rect class="hdr-bg" x="0" y="0" width="1200" height="60" />
+  <rect fill="#3b82f6" x="20" y="14" width="34" height="34" rx="8" />
+  <text font-family="sans-serif" font-size="18" font-weight="900" fill="#ffffff" x="27" y="37">🚀</text>
+  <text class="brand-title" x="68" y="36">ChangelogToSocial Pro</text>
+  <rect fill="rgba(59, 130, 246, 0.15)" x="290" y="20" width="55" height="20" rx="4" />
+  <text font-family="sans-serif" font-size="11" font-weight="700" fill="#60a5fa" x="302" y="34">v1.0.0</text>
+
+  <!-- Header Buttons -->
+  <g transform="translate(700, 14)">
+    <rect class="input-bg" x="0" y="0" width="180" height="32" />
+    <text class="val-txt" x="12" y="21">SaaS Release (Preset)</text>
+    <rect class="btn-gray" x="190" y="0" width="130" height="32" />
+    <text font-family="sans-serif" font-size="12" font-weight="700" fill="#fff" x="255" y="20" text-anchor="middle">Export JSON</text>
+    <rect class="btn-blue" x="330" y="0" width="150" height="32" />
+    <text class="btn-txt" x="405" y="20">Copy Full Thread</text>
+  </g>
+
+  <!-- Left Sidebar Controls -->
+  <rect class="sidebar-bg" x="0" y="60" width="460" height="690" />
+  <g transform="translate(20, 80)">
+    <!-- Settings Card -->
+    <rect class="card-bg" x="0" y="0" width="420" height="150" />
+    <text class="sec-hdr" x="15" y="24">Campaign Settings</text>
+    
+    <text class="lbl-txt" x="15" y="44">Social Voice &amp; Tone</text>
+    <rect class="input-bg" x="15" y="50" width="390" height="26" />
+    <text class="val-txt" x="25" y="67">Engaging &amp; Energetic (Founder Style)</text>
+
+    <text class="lbl-txt" x="15" y="90">Changelog / Migration Link</text>
+    <rect class="input-bg" x="15" y="96" width="390" height="26" />
+    <text font-family="monospace" font-size="11" fill="#38bdf8" x="25" y="113">https://cloudscale.ai/changelog/v2-4-0</text>
+
+    <!-- Raw Markdown Input Card -->
+    <rect class="card-bg" x="0" y="165" width="420" height="490" />
+    <text class="sec-hdr" x="15" y="189">Changelog Markdown</text>
+    <rect class="input-bg" x="15" y="200" width="390" height="440" />
+    <text font-family="monospace" font-size="10.5" fill="#f8fafc" x="25" y="225"># CloudScale AI Changelog</text>
+    <text font-family="monospace" font-size="10.5" fill="#60a5fa" x="25" y="245">## [2.4.0] - 2026-09-29</text>
+    <text font-family="monospace" font-size="10" fill="#94a3b8" x="25" y="270">Autonomous Agent Clusters, real-time</text>
+    <text font-family="monospace" font-size="10" fill="#94a3b8" x="25" y="288">webhook replayer, and SOC2 telemetry.</text>
+    <text font-family="monospace" font-size="10.5" fill="#10b981" x="25" y="315">### Added</text>
+    <text font-family="monospace" font-size="10" fill="#f8fafc" x="25" y="335">- Autonomous Agent Clusters with failover</text>
+    <text font-family="monospace" font-size="10" fill="#f8fafc" x="25" y="355">- Client-side HMAC-SHA256 Webhook Replayer</text>
+  </g>
+
+  <!-- Right Live Preview Workspace -->
+  <g transform="translate(500, 80)">
+    <!-- Platform Tabs -->
+    <rect fill="#3b82f6" x="0" y="0" width="160" height="34" rx="6" />
+    <text font-family="sans-serif" font-size="12" font-weight="700" fill="#ffffff" x="80" y="22" text-anchor="middle">🐦 Twitter / X Thread</text>
+    <rect fill="#0f1527" stroke="#212c4c" stroke-width="1" x="170" y="0" width="150" height="34" rx="6" />
+    <text font-family="sans-serif" font-size="12" font-weight="700" fill="#94a3b8" x="245" y="22" text-anchor="middle">💼 LinkedIn Post</text>
+    <rect fill="#0f1527" stroke="#212c4c" stroke-width="1" x="330" y="0" width="150" height="34" rx="6" />
+    <text font-family="sans-serif" font-size="12" font-weight="700" fill="#94a3b8" x="405" y="22" text-anchor="middle">💬 Slack / Discord</text>
+
+    <!-- Twitter Thread Mockups -->
+    <g transform="translate(0, 50)">
+      <!-- Tweet 1 -->
+      <rect fill="#000000" stroke="#2f3336" stroke-width="1" width="670" height="120" rx="8" />
+      <circle cx="30" cy="28" r="14" fill="#3b82f6" />
+      <text font-family="sans-serif" font-size="11" font-weight="700" fill="#fff" x="55" y="26">CloudScale AI <tspan fill="#1d9bf0">✓</tspan></text>
+      <text font-family="sans-serif" font-size="10" fill="#71767b" x="55" y="38">@cloudscaleai &bull; Tweet 1/3</text>
+      <text font-family="sans-serif" font-size="11" fill="#e7e9ea" x="20" y="66">🚀 Big launch day! We just released CloudScale AI v2.4.0.</text>
+      <text font-family="sans-serif" font-size="11" fill="#e7e9ea" x="20" y="84">Autonomous agent clusters, real-time cryptographic webhook replayer...</text>
+      <rect fill="rgba(16,185,129,0.15)" x="550" y="15" width="100" height="20" rx="4" />
+      <text font-family="monospace" font-size="10" font-weight="700" fill="#10b981" x="600" y="29" text-anchor="middle">248 / 280 chars</text>
+
+      <!-- Tweet 2 -->
+      <g transform="translate(0, 135)">
+        <rect fill="#000000" stroke="#2f3336" stroke-width="1" width="670" height="120" rx="8" />
+        <circle cx="30" cy="28" r="14" fill="#3b82f6" />
+        <text font-family="sans-serif" font-size="11" font-weight="700" fill="#fff" x="55" y="26">CloudScale AI <tspan fill="#1d9bf0">✓</tspan></text>
+        <text font-family="sans-serif" font-size="10" fill="#71767b" x="55" y="38">@cloudscaleai &bull; Tweet 2/3</text>
+        <text font-family="sans-serif" font-size="11" fill="#e7e9ea" x="20" y="66">✨ What's New in v2.4.0:</text>
+        <text font-family="sans-serif" font-size="11" fill="#e7e9ea" x="20" y="84">• Autonomous Agent Clusters with distributed multi-region failover</text>
+        <text font-family="sans-serif" font-size="11" fill="#e7e9ea" x="20" y="102">• Client-side HMAC-SHA256 Webhook Replayer for Stripe &amp; GitHub [2/3]</text>
+        <rect fill="rgba(16,185,129,0.15)" x="550" y="15" width="100" height="20" rx="4" />
+        <text font-family="monospace" font-size="10" font-weight="700" fill="#10b981" x="600" y="29" text-anchor="middle">262 / 280 chars</text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800" width="1000" height="800">
+  <defs>
+    <style>
+      .app-bg { fill: #040711; }
+      .card-bg { fill: #000000; stroke: #2f3336; stroke-width: 1.5; rx: 12; }
+      .hdr-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 22px; font-weight: 800; fill: #f8fafc; }
+      .hdr-sub { font-family: sans-serif; font-size: 13px; fill: #94a3b8; }
+      .avatar { fill: url(#avatarGrad); }
+      .usr-name { font-family: sans-serif; font-size: 14px; font-weight: 700; fill: #e7e9ea; }
+      .usr-handle { font-family: sans-serif; font-size: 13px; fill: #71767b; }
+      .tweet-body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13.5px; fill: #e7e9ea; line-height: 1.5; }
+      .badge-safe { fill: rgba(16, 185, 129, 0.15); stroke: #10b981; stroke-width: 1; rx: 4; }
+      .badge-txt { font-family: monospace; font-size: 11px; font-weight: 700; fill: #10b981; }
+      .thread-line { stroke: #333639; stroke-width: 2; stroke-dasharray: 4 2; }
+    </style>
+    <linearGradient id="avatarGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+  </defs>
+
+  <rect class="app-bg" width="1000" height="800" />
+
+  <!-- Outer Container Card -->
+  <rect fill="#0f1527" stroke="#212c4c" stroke-width="1.5" x="80" y="40" width="840" height="720" rx="14" />
+
+  <!-- Header -->
+  <g transform="translate(120, 80)">
+    <text class="hdr-title" x="0" y="20">Twitter / X Thread Synthesizer (280-Char Safe)</text>
+    <text class="hdr-sub" x="0" y="42">Automated Semantic Release Chunker with t.co URL Weighting</text>
+    <line x1="0" y1="60" x2="760" y2="60" stroke="#212c4c" stroke-width="1" />
+  </g>
+
+  <!-- Thread Vertical Connector Line -->
+  <line x1="150" y1="210" x2="150" y2="650" class="thread-line" />
+
+  <!-- Tweet Card 1 (Hook) -->
+  <g transform="translate(120, 165)">
+    <rect class="card-bg" width="760" height="150" />
+    <!-- User Avatar & Details -->
+    <circle cx="35" cy="35" r="18" class="avatar" />
+    <text font-family="sans-serif" font-size="14" font-weight="900" fill="#ffffff" x="35" y="40" text-anchor="middle">⚡</text>
+    <text class="usr-name" x="65" y="32">CloudScale AI <tspan fill="#1d9bf0">✓</tspan></text>
+    <text class="usr-handle" x="65" y="48">@cloudscaleai &bull; Tweet 1/4</text>
+
+    <!-- Tweet Content -->
+    <text class="tweet-body" x="35" y="80">🚀 Big launch day! We just released CloudScale AI v2.4.0.</text>
+    <text class="tweet-body" x="35" y="102">Autonomous agent clusters, real-time cryptographic webhook replayer, and SOC2 telemetry.</text>
+    <text class="tweet-body" x="35" y="124">Here is everything new, improved, and fixed in this update 👇 🧵 [1/4]</text>
+
+    <!-- Footer Badge -->
+    <rect class="badge-safe" x="635" y="20" width="105" height="24" />
+    <text class="badge-txt" x="687" y="36" text-anchor="middle">248 / 280 chars</text>
+  </g>
+
+  <!-- Tweet Card 2 (Features) -->
+  <g transform="translate(120, 335)">
+    <rect class="card-bg" width="760" height="160" />
+    <circle cx="35" cy="35" r="18" class="avatar" />
+    <text font-family="sans-serif" font-size="14" font-weight="900" fill="#ffffff" x="35" y="40" text-anchor="middle">⚡</text>
+    <text class="usr-name" x="65" y="32">CloudScale AI <tspan fill="#1d9bf0">✓</tspan></text>
+    <text class="usr-handle" x="65" y="48">@cloudscaleai &bull; Tweet 2/4</text>
+
+    <text class="tweet-body" x="35" y="80">✨ What's New in v2.4.0:</text>
+    <text class="tweet-body" x="35" y="102">• Autonomous Agent Clusters with distributed multi-region failover</text>
+    <text class="tweet-body" x="35" y="124">• Client-side HMAC-SHA256 Webhook Replayer for Stripe, GitHub &amp; Slack</text>
+    <text class="tweet-body" x="35" y="146">• Instant 1-click BIND DNS zone file exporter [2/4]</text>
+
+    <rect class="badge-safe" x="635" y="20" width="105" height="24" />
+    <text class="badge-txt" x="687" y="36" text-anchor="middle">262 / 280 chars</text>
+  </g>
+
+  <!-- Tweet Card 3 (CTA & Documentation) -->
+  <g transform="translate(120, 515)">
+    <rect class="card-bg" width="760" height="150" />
+    <circle cx="35" cy="35" r="18" class="avatar" />
+    <text font-family="sans-serif" font-size="14" font-weight="900" fill="#ffffff" x="35" y="40" text-anchor="middle">⚡</text>
+    <text class="usr-name" x="65" y="32">CloudScale AI <tspan fill="#1d9bf0">✓</tspan></text>
+    <text class="usr-handle" x="65" y="48">@cloudscaleai &bull; Tweet 3/4</text>
+
+    <text class="tweet-body" x="35" y="80">🔗 Full release notes, documentation &amp; migration guide:</text>
+    <text class="tweet-body" x="35" y="102"><tspan fill="#1d9bf0">https://cloudscale.ai/changelog/v2-4-0</tspan></text>
+    <text class="tweet-body" x="35" y="124">What feature are you most excited for? Drop your feedback below! 👇 [3/4]</text>
+
+    <rect class="badge-safe" x="635" y="20" width="105" height="24" />
+    <text class="badge-txt" x="687" y="36" text-anchor="middle">215 / 280 chars</text>
+  </g>
+</svg>

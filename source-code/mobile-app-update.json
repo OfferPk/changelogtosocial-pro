@@ -1,0 +1,4 @@
+{
+  "presetName": "Consumer Mobile App (v1.4 Feature Update)",
+  "rawMarkdown": "# Nordic Tracker Changelog\n\n## [1.4.0] - 2026-09-29\n\nBiometric Face ID authentication, offline GPS route caching, and interactive Apple Watch complications.\n\n### Added\n- Biometric Face ID and fingerprint quick unlock for instant workout tracking\n- Offline GPS Route Caching: record trails without cellular network connectivity\n- Interactive lock screen and watchOS glanceable complications\n\n### Changed\n- Optimized background GPS sampling to reduce device battery drain by 35%\n- Upgraded map vector tiles to high-resolution topographic rendering\n\n### Fixed\n- Fixed crash on iOS 18 when importing GPX files with missing altitude tags\n- Resolved Bluetooth heart-rate sensor auto-reconnect delay\n\nhttps://nordictracker.app/releases/1-4-0"
+}
